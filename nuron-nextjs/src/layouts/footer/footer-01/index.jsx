@@ -53,7 +53,7 @@ const Footer = ({ space, className, data }) => (
 
             <div className="container">
                 <div className="row gx-5">
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                         <div className="widget-content-wrapper">
                             <LogoWidget data={footerData["logo-widget"]} />
                             <NewsletterWidget
@@ -62,20 +62,16 @@ const Footer = ({ space, className, data }) => (
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_mobile--40">
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--40">
                         <QuicklinkWidget
                             data={footerData["quicklink-widget"]}
                         />
                     </div>
 
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
+                    <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
                         <InformationWidget
                             data={footerData["information-widget"]}
                         />
-                    </div>
-
-                    <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt_md--40 mt_sm--40">
-                        <SoldOutWidget data={footerData["soldout-widget"]} />
                     </div>
                 </div>
             </div>
@@ -83,7 +79,7 @@ const Footer = ({ space, className, data }) => (
         <div className="copy-right-one ptb--20 bg-color--1">
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-lg-8 col-md-12 col-sm-12">
                         <div className="copyright-left">
                             <span>{footerData.copyright_text}</span>
                             <FooterLinkWidget
@@ -91,7 +87,7 @@ const Footer = ({ space, className, data }) => (
                             />
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12">
+                    <div className="col-lg-4 col-md-12 col-sm-12">
                         <div className="copyright-right">
                             <SocialWidget socials={contactData.socials} />
                         </div>

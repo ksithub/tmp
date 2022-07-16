@@ -7,54 +7,34 @@
                 "alt": "logo"
             }
         ],
-        "text": "Created with the collaboration of over 60 of the world's best Nuron Artists."
+        "text": "Created with the collaboration with world's best Top Maker Place Artists."
     },
     "newsletter-widget": {
-        "title": "Get The Latest Nuron Updates",
+        "title": "Get The Latest Updates",
         "note": "Email is safe. We don't spam."
     },
     "quicklink-widget": {
-        "title": "Nuron",
+        "title": "Top Maker Place",
         "menu": [
             {
                 "id": 1,
-                "text": "Protocol Explore",
+                "text": "Explore",
                 "path": "/explore-01"
             },
             {
                 "id": 2,
-                "text": "System Token",
+                "text": "About",
                 "path": "/about"
             },
             {
                 "id": 3,
-                "text": "Otimize Time",
-                "path": "/about"
-            },
-            {
-                "id": 4,
-                "text": "Visual Checking",
-                "path": "/about"
-            },
-            {
-                "id": 5,
-                "text": "Fadeup System",
-                "path": "/blog"
-            },
-            {
-                "id": 6,
-                "text": "Activity Log",
-                "path": "/activity"
-            },
-            {
-                "id": 7,
-                "text": "System Auto Since",
+                "text": "Blog",
                 "path": "/blog"
             }
         ]
     },
     "information-widget": {
-        "title": "Information",
+        "title": "Other Links",
         "menu": [
             {
                 "id": 1,
@@ -142,5 +122,5 @@
             }
         ]
     },
-    "copyright_text": "©2022 Nuron, Inc. All rights reserved"
+    "copyright_text": "©2022 Top Market Place, Inc. All rights reserved"
 }
